@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cp4aiops:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-04-07T14:48:07.445224+01:00"
+    description: CP4AIops Deployment
+    digest: c4583e15d6133332890460c303d14c2ea7fb0e42f2acebfee6c6b7684977eacd
+    name: cp4aiops
+    type: application
+    urls:
+    - https://pages.github.ibm.com/KENMURR3/cp4aiops/cp4aiops-4.9.1.tgz
+    version: 4.9.1
+generated: "2025-04-07T14:48:07.443905+01:00"
