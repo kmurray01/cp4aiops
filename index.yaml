@@ -9,6 +9,6 @@ entries:
     name: cp4aiops
     type: application
     urls:
-    - https://raw.github.com/kmurray01/cp4aiops/main/cp4aiops-4.9.1.tgz
+    - https://raw.github.com/kmurray01/cp4aiops/charts/cp4aiops-4.9.1.tgz
     version: 4.9.1
 generated: "2025-04-07T14:48:07.443905+01:00"
