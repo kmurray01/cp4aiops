@@ -1,0 +1,33 @@
+spec:
+  imageCatalog: icr.io/cpopen/ibm-aiops-catalog@sha256:1652f745216637eed1f25eddab55181d8b55538c56f5c427a7122d61d467b23e
+
+  cp4aiops:
+    catalogNamespace: openshift-marketplace
+    catalogName: ibm-cp-waiops-catalog
+    channel: v4.9
+    customSizing: false
+    installName: aiops-installation
+    size: small
+    namespace: katamari
+    storageClass: foobar
+    storageClassLargeBlock: foobar
+    pgLocalStorageClass: ''
+    kfLocalStorageClass: ''
+    imagePullSecret: ''
+    acceptLicense: true
+    topologyModel: application
+    zones:
+      zone1: ''
+      zone2: ''
+      zone3: ''
+    pakModules:
+      aiopsFoundation:
+        enabled: true
+      applicationManager:
+        enabled: true
+      aiManager:
+        enabled: true
+      connection:
+        enabled: true
+      logAnomalyDetection:
+        enabled: true
